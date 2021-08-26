@@ -1,0 +1,22 @@
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+  
+.meal h3 {
+    font: 1.55rem 'Amita', cursive;
+    margin: 0 0 0.25rem 0;
+    color: #aa850c
+}
+  
+.description {
+    font-style: italic;
+}
+  
+.price {
+    font: 1.25rem 'Amita', cursive;
+    margin-top: 0.25rem;
+}

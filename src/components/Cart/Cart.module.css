@@ -1,0 +1,51 @@
+.cart-items {
+    font-family: 'Amita', cursive;
+    font-size: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.total {
+    font-family: 'Amita', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #be9306
+}
+  
+.actions {
+    text-align: right;
+}
+  
+.actions button {
+    font-family: 'Amita', cursive;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #c3970c;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+  
+.actions button:hover,
+.actions button:active {
+    background-color: #cea82c;
+    border-color: #cea82c;
+    color: white;
+}
+  
+.actions .button--alt {
+    color: #c3970c;
+}
+  
+.actions .button {
+    background-color: #c3970c;
+    color: white;
+}
